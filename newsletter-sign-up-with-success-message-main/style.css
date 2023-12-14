@@ -1,0 +1,245 @@
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    /* background-color: hsl(231, 7%, 60%); */
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part{
+    width: 45%;
+    height: 380px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    
+    
+}.heading{
+    width: 65%;
+    height: 350px;
+    padding: 30px;
+    /* background-color:yellow; */
+   
+}
+.heading h1{
+    padding-top: 20px;
+    font-size: 28px;
+    color: hsl(235, 18%, 26%);
+}
+.heading p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.icons{
+    width: 100%;
+    height: 100px;
+    /* background-color: brown; */
+}
+.icon{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon img{
+    width: 10%;
+    padding: 7px;
+    height: 30px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+}
+.icon p{
+    width: 89%;
+    height: 30px;
+    /* background-color: aqua; */
+    font-size: 14px;
+}
+.email{
+    width: 100%;
+    height: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between
+}
+.error{
+    width:55% ;
+    font-size: 13px;
+    padding-top: 10px;
+    color: red;
+    display: none;
+}
+.mail{
+    width: 80%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5%;
+}
+.btm{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    /* background-color: black; */
+    background-color:hsl(234, 29%, 20%);
+    color: white;
+    border: 1px solid hsl(234, 29%, 20%) ;
+    border-radius: 8%;
+}
+.background-img{
+    width: 40%;
+    height:340px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+}
+}
+/* responsive */
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) and (orientation : portrait) { 
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 100%;
+        height: 700px;
+        /* background-color: hsl(231, 7%, 60%); */
+        background-color: hsl(235, 18%, 26%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .part{
+        width: 100%;
+        height: 800px;
+        padding: 10px;
+        padding-top: 0px;
+        background-color:white;
+        border-radius: 0%;
+        display: flex;
+        flex-direction: column-reverse;  
+        justify-content: space-between;
+        border-radius: 5%;
+        
+    }.heading{
+        width: 100%;
+        height: 550px;
+        padding: 30px;
+        /* background-color:yellow; */
+    }
+    .heading h1
+    { 
+        padding-top: 20px;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-weight: bold;
+        color: hsl(235, 18%, 26%);
+    }
+    .heading p{
+        padding-top: 10px;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    .icons{
+        width: 100%;
+        height: 100px;
+        /* background-color: brown; */
+        margin-top: 15px;
+    }
+    .icon{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icon img{
+        width: 10%;
+        padding: 3px;
+        height: 50px;
+        /* background-color: bisque; */
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .icon p{
+        width: 89%;
+        height: 50px;
+        padding: 7px;
+        padding-top: 10px;
+        /* background-color: aqua; */
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        /* justify-content:start; */
+    }
+    .email{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        padding-top: 30px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between
+    }
+    .error{
+        width:55% ;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 15px;
+        color: red;
+        display: none;
+    }
+    .mail{
+        width: 80%;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5%;
+    }
+    .btm{
+        width: 80%;
+        height: 40px;
+        margin-top: 40px;
+        /* background-color: black; */
+        background-color:hsl(234, 29%, 20%);
+        color: white;
+    }
+    .background-img{
+        width: 100%;
+        height:300px;
+        padding-left: 10px;
+        background-color: antiquewhite;
+        background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 3%;
+        overflow: hidden;
+    }
+    
+
+}
+
+
+
